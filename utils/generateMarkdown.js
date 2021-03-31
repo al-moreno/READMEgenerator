@@ -1,7 +1,11 @@
 
 function generateMarkdown(data) {
   return `
-![GitHub](https://img.shields.io/badge/license-${data.license}-blue)
+![License](https://img.shields.io/badge/license-${data.license}-blue)
+
+![GitHub] (https://github.com/${data.username})
+
+
   
 # ${data.title}
 
@@ -44,6 +48,8 @@ ${data.license}
 ## Questions
 ${data.username}
 ${data.email}
+
+
 
 `
 };
