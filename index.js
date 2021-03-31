@@ -26,7 +26,7 @@ const questions =
     {
       type:"input",
       message:"What usage information would you like to include?",
-      name:"usageInfo"
+      name:"usage"
     },
     {
       type:"input",
@@ -35,7 +35,7 @@ const questions =
     },
     {
       type:"input",
-      message:"Please provide the project?",
+      message:"Please provide the project test requirement?",
       name:"test",
       default: "npm test"
     },
